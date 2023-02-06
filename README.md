@@ -53,7 +53,7 @@ Using the following steps, you can set up the project on your machine and run it
 ## Augmented Reality (AR)
 Augmented Reality (AR) is a technology that superimposes digital information onto the real world, often through the use of a camera and display, such as a smartphone or tablet screen.
 ### Current Template
-This repository has templates for both android and IOS devices. The templates just have a rotating  They use ARCore an ARKit respectively. These are most popular plugins for building AR apps for smartphones. However you can also build them natively, for example, for IOS you can also use SwiftUI and RealityKit
+This repository has templates for both android and IOS devices. The templates just have a rotating cube. They are built on AR Foundation and  use ARCore an ARKit respectively for Android and IOS. These are most popular plugins for building AR apps for smartphones. However you can also build them natively, for example, for IOS you can also use SwiftUI and RealityKit
 
 ### Choice of Hardware
 All projects in this repository are build for devices with the largest consumer base and this template is build for Android and IOS smartphone which still dominate the AR world. 
