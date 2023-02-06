@@ -1,26 +1,44 @@
 
 
-# XR-Templates
+# XR-Starter-Guide
 
-This repository contains a starter template for creating XR applications using Unity and OpenXR. This project comes with all the necessary settings and plugins required for an XR Project. It also has premade prefabs that can be used along with locatomotion, Input Manager, and XR Ray Interactor added. OpenXR is an open standard for XR platform interoperability, allowing developers to create a single application that works across multiple XR systems. However, we are using Meta Quest 2 as hardware for testing in this template. 
+This is a basic XR Starter Guide that includes starter templates for different XR Technologies that have been configured for specefic platforms with some basic functionality and assets added. They are all built on Unity for better cross-platform functionality and use C# as a scripting language. This guide explains how to build those projects and also recommends tutorials for users to learn how to develop them on their own.
 
-Last Updated: Feb 6, 2022 
+Last Updated: Feb 7, 2022 
 
 Unity Version : 2021.3.1f1
 
 ## Table of Contents
-- [Getting Started](#getting-started)
-  - [Software Setup](#software-setup)
-  - [Hardware Setup](#hardware-setup)
-  - [Build App](#build-app)
-- [Meta Quest Mixed Reality Template](#meta-quest-mixed-reality-template)
+- [Virtual Reality](#virtual-reality)
+  - [Current Template](#current-template)
+  - [Choice of Hardware](#choice-of-hardware)
+  - [Getting Started](#getting-started)
+    - [Software Setup](#software-setup)
+    - [Hardware Setup](#hardware-setup)
+    - [Build App](#build-app)
+- [Augmented Reality](#augmented-reality)
+  - [Current Template](#current-template)
+  - [Choice of Hardware](#choice-of-hardware)
+  - [Android](#android)
+    - [Getting Started](#getting-started)
+  - [IOS](#ios)
+    - [Getting Started](#getting-started)
+- [Mixed Reality](#mixed-reality)
+  - [Current Template](#current-template)
+  - [Choice of Hardware](#choice-of-hardware)
+  - [Getting Started](#getting-started)
+    - [Software Setup](#software-setup)
+    - [Hardware Setup](#hardware-setup)
+    - [Build App](#build-app)
 - [Recommended XR Tutorials](#recommended-xr-tutorials)
   - [Basics](#basics)
   - [Additional](#additional)
+- [Assets](#assets)
+- [Version Control](#version-control)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Virtual Reality (VR)
+## Virtual Reality
 Virtual Reality (VR) is a computer-generated simulation of a three-dimensional environment that can be interacted with in a seemingly real or physical way through the use of special electronic equipment, such as a headset.
 ### Current Template
 The current starter template uses Unity and OpenXR. It comes with all the necessary settings and plugins installed and configured for the project. It also has premade prefabs that can be used along with locatomotion, Input Manager, and XR Ray Interactor added. OpenXR is an open standard for XR platform interoperability, allowing developers to create a single application that works across multiple XR systems. 
@@ -50,7 +68,7 @@ Using the following steps, you can set up the project on your machine and run it
 - Now go back to Unity and under Android Build Settings, click “Refresh” and make sure you can discover your headset in the drop down. If you can’t see it, please complete the previous step.
   Select you headset and click “Build and Run”
 
-## Augmented Reality (AR)
+## Augmented Reality
 Augmented Reality (AR) is a technology that superimposes digital information onto the real world, often through the use of a camera and display, such as a smartphone or tablet screen.
 ### Current Template
 This repository has templates for both android and IOS devices. The templates just have a rotating cube. They are built on AR Foundation and  use ARCore an ARKit respectively for Android and IOS. These are most popular plugins for building AR apps for smartphones. However you can also build them natively, for example, for IOS you can also use SwiftUI and RealityKit
@@ -85,9 +103,10 @@ Make Sure you Android smartphone has USB Debugging enabled. You can refer to [An
 - Open XCode on your device.
 - Connect you IOS Device and make sure it's unlocked.
 - Click “Build and Run”.
+- If you run into issues, look for debugging tips [here](https://learn.unity.com/tutorial/deploy-your-project-to-ios-or-android?uv=2021.3&projectId=633b041bedbc2a6de5496294#633d41f8edbc2a4773c9eabf)
 
 
-## Mixed Reality (MR)
+## Mixed Reality
 Mixed Reality (MR) is a hybrid of virtual reality (VR) and augmented reality (AR) in which physical and digital objects coexist and interact in a real-time environment. MR combines the real and virtual worlds to produce new environments and visualizations where physical and digital objects can co-exist and interact.
 ### Current Template
 The template in build for Passthrough Mixed Reality for Meta Quest Pro.  This contains main scene has been configured to use Passthrough and Hand Tracking. You can also easily add other features from Meta Presence Platform to this Project. This project is fully configured to be published on Quest App Lab.
