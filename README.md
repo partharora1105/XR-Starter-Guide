@@ -76,13 +76,15 @@ Make Sure you Android smartphone has USB Debugging enabled. You can refer to [An
 #### Getting Started
 - Clone/Download the Project Repository.
 - Install Unity Hub for your machine from official [Unity Site](https://unity.com/download).
-- Choose Unity Version - 2021.3.1f1 and add “Android Build Support” (You can skip this step as well and do it in next to next step)
+- You will also need to install XCode for IOS app, which you can install [here](https://apps.apple.com/us/app/xcode/id497799835?mt=12) with [Command Line Tools](https://forum.unity.com/threads/unable-to-create-project-using-arkit-and-ar-foundation-on-apple-silicon-m1-macbook.1302240/) and add them to path (Very Important).
+- Choose Unity Version - 2021.3.1f1 and add “IOS Build Support” (You can skip this step as well and do it in next to next step)
 - Now, click on open under projects and navigate to the downloaded project repository. Open “Android” directory under AR.
-  Unity might prompt you by saying that you do not have the correct version of Unity. Make sure you download the required version with  “Android Build Support”.
-- Now once you are in Unity, from the top bar, navigate to File> Build Settings > Android
-- Make sure, under “Scenes in Build”, “Scene/main” is selected,  and click on Switch Platform.
-- Connect you android device and click “Refresh” and make sure you can discover your phone in the drop down.
-- Select you phone and click “Build and Run”.
+  Unity might prompt you by saying that you do not have the correct version of Unity. Make sure you download the required version with  “IOS Build Support”.
+- Now once you are in Unity, from the top bar, navigate to File> Build Settings > IOS
+- Make sure, under “Scenes in Build”, “Scene/Main” is selected,  and click on Switch Platform.
+- Open XCode on your device.
+- Connect you IOS Device and make sure it's unlocked.
+- Click “Build and Run”.
 
 
 ## Mixed Reality (MR)
