@@ -76,7 +76,7 @@ Make Sure you Android smartphone has USB Debugging enabled. You can refer to [An
 #### Getting Started
 - Clone/Download the Project Repository.
 - Install Unity Hub for your machine from official [Unity Site](https://unity.com/download).
-- You will also need to install XCode for IOS app, which you can install [here](https://apps.apple.com/us/app/xcode/id497799835?mt=12) with [Command Line Tools](https://forum.unity.com/threads/unable-to-create-project-using-arkit-and-ar-foundation-on-apple-silicon-m1-macbook.1302240/) and add them to path (Very Important).
+- You will also need to install XCode for IOS app, which you can install [here](https://apps.apple.com/us/app/xcode/id497799835?mt=12) with [Command Line Tools](https://forum.unity.com/threads/unable-to-create-project-using-arkit-and-ar-foundation-on-apple-silicon-m1-macbook.1302240/) and add them to path (Very Important). You must also have an Apple Developer Account.
 - Choose Unity Version - 2021.3.1f1 and add “IOS Build Support” (You can skip this step as well and do it in next to next step)
 - Now, click on open under projects and navigate to the downloaded project repository. Open “Android” directory under AR.
   Unity might prompt you by saying that you do not have the correct version of Unity. Make sure you download the required version with  “IOS Build Support”.
