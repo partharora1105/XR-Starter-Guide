@@ -2,11 +2,8 @@
 This repository contains a starter template for creating XR applications using Unity and OpenXR. This project comes with all the necesarry settings and plugins required for an XR Project. It also has premade prefabs that can be used along with locatomotion, Input Mangae and XR Ray Interactor added. OpenXR is an open standard for XR platform interoperability, allowing developers to create a single application that works across multiple XR systems. However we are using Meta Quest 2 as a hardware for testing in this template. <br>
 Last Updated : Feb 6, 2022
 ## Table of Contents
-hi
-Getting Started
-Recommended XR tutorials
-Guide to add features
-Meta Quest Mixed Reality Features
+
+
 
 
 ## Getting Started
@@ -26,13 +23,34 @@ Unity might prompt you by saying that you do not have the correct version of Uni
 * Now go back to Unity and under Android Build Settings, click “Refresh” and make sure you can discover your headset in the drop down. If you can’t see it, please complete the previous step.
 Select you headset and click “Build and Run”
 
-## Getting Started
-put some links
+## Meta Quest Mixed Reality Template
+You can also open Oculus_MixedReality in this repository through Unity Hub. This contains main scene has been configured to use Passthrough and Hand Tracking. You can also easily add other features from Meta Presence Platform to this Project. This project is fully configured to be published on Quest App Lab.
 
-## Guide to Add Features
-### Basic Transformations
-Let's just add a box that moves.
-* 
+## Recommended XR Tutorials
+### Basics
+These are some recommended XR Tutorials which we suggest going through in order if you are not sure what you want to do.
+* Programming
+  * C# (Similar to Java and not needed if you know Java) : [W3Schools](https://www.w3schools.com/cs/index.php)
+* Unity
+  * 3D Game Development : [Brackeys Youtube Playlist](https://youtu.be/IlKaB1etrik)
+* AR
+  * AR Enviornment Setup : [Unity Getting Started with AR](https://learn.unity.com/project/get-started-with-ar)
+  * AR Application : [Unity AR Marker & Planes](https://learn.unity.com/course/create-with-ar-markers-and-planes?uv=2021.3)
+* VR
+  * VR Projects :[Unity Create with VR](https://learn.unity.com/course/create-with-vr)
+
+### Additional
+* Blender : [Blender Guru Youtube](https://youtu.be/nIoXOplUvAw)
+* Input System : [VR With Andrew Youtube](https://www.youtube.com/watch?v=jOn0YWoNFVY)
+* Animations : [iHeartGameDev Youtube](https://youtu.be/-FhvQDqmgmU)
+* Avatars : [Ready Player Me](https://docs.readyplayer.me/ready-player-me/integration-guides/unity-sdk)
+* Meta Exclusive : [Passthrough](https://developer.oculus.com/documentation/unity/unity-passthrough/) , [Hand Tracking](https://developer.oculus.com/documentation/unity/unity-handtracking/) ,  [Hand Gestures](https://www.youtube.com/watch?v=lBzwUKQ3tbw)
+* 360 Video System : [Valem Youtube](https://www.youtube.com/watch?v=RxlQnPcOoYc)
+* Any Other General XR Tutorials : [Dilmerv Youtube Channel](https://www.youtube.com/@dilmerv)
+
+## Contributing
+Users are encouraged to suggest changes to the repository, esspecially for such an ever-growing field, and they can do so by suggesting changes to the author using the contact information updated on the profile page.
+
 
 
 
