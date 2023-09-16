@@ -1,12 +1,25 @@
-
-
 # XR-Starter-Guide
 
-This is a basic XR Starter Guide that includes starter templates for different XR Technologies that have been configured for specefic platforms with some basic functionality and assets added. They are all built on Unity for better cross-platform functionality and use C# as a scripting language. This guide explains how to build those projects and also recommends tutorials for users to learn how to develop them on their own.
+![GTXR Logo Landscape](https://github.com/GeorgiaTech-XR/XR-Starter-Guide/assets/81753493/085a0785-a564-491a-9450-e1d887211ce2)
+
+Welcome to the [XR-Starter-Guide](https://github.com/GeorgiaTech-XR/XR-Starter-Guide) made by [GTXR](www.gtxr.club) (Georgia Tech Extended Reality)  – Your Gateway to Immersive Worlds!
+
+Unlock the magic of Extended Reality with our comprehensive XR Starter Guide. In this repository, you'll find expertly crafted starter templates tailored to specific XR technologies, meticulously configured for various platforms, complete with essential functionality and ready-to-use assets. Our projects are all powered by Unity for seamless cross-platform compatibility, and we harness the power of C# for scripting.
+
+[**`Website`**](www.gtxr.club)  [**`Join Our Slack`**](https://join.slack.com/t/gtxrgroup/shared_invite/zt-1bfj2rjuc-IIdx2Ck6b6h8U7~OCy9Zrw)
+
+## What's Inside:
+
+* Starter templates for diverse XR Technologies
+* Platform-specific configurations
+* Essential functionality pre-implemented
+* A treasure trove of assets
+
+Our guide not only provides step-by-step instructions and tutorials on building XR projects but also empowers you with templates that will expedite the development process. Join GTXR on an exhilarating journey into the world of Extended Reality. 
 
 Last Updated: Feb 7, 2022 
 
-Unity Version : 2021.3.1f1
+Unity Version: 2021.3.1f1
 
 ## Table of Contents
 - [Virtual Reality](#virtual-reality)
@@ -41,19 +54,19 @@ Unity Version : 2021.3.1f1
 ## Virtual Reality
 Virtual Reality (VR) is a computer-generated simulation of a three-dimensional environment that can be interacted with in a seemingly real or physical way through the use of special electronic equipment, such as a headset.
 ### Current Template
-The current starter template uses Unity and OpenXR. It comes with all the necessary settings and plugins installed and configured for the project. It also has premade prefabs that can be used along with locatomotion, Input Manager, and XR Ray Interactor added. OpenXR is an open standard for XR platform interoperability, allowing developers to create a single application that works across multiple XR systems. 
+The current starter template uses Unity and OpenXR. It comes with all the necessary settings and plugins installed and configured for the project. It also has premade prefabs that can be used along with locomotion, Input Manager, and XR Ray Interactor. OpenXR is an open standard for XR platform interoperability, allowing developers to create a single application that works across multiple XR systems. 
 
 ### Choice of Hardware
-All projects in this repository are build for devices with the largest consumer base and this template is build for Meta Quest 2 headset and can be used for any Meta headset released after it.
+All projects in this repository are built for devices with the largest consumer base and this template is built for the Meta Quest 2 headset and can be used for any Meta headset released after it.
 
 ### Getting Started
 Using the following steps, you can set up the project on your machine and run it on your headset.
 #### Software Setup
 
 - Clone/Download the Project Repository.
-- Install Unity Hub for your machine from official [Unity Site](https://unity.com/download).
+- Install Unity Hub for your machine from the official [Unity Site](https://unity.com/download).
 - Choose Unity Version - 2021.3.1f1 and add “Android Build Support” (You can skip this step as well and do it in next to next step)
-- Now, click on open under projects and navigate to the downloaded project repository. Open “OpenXR_Oculus” directory under VR.
+- Now, click on Open under Projects and navigate to the downloaded project repository. Open the “OpenXR_Oculus” directory under VR.
   Unity might prompt you by saying that you do not have the correct version of Unity. Make sure you download the required version with  “Android Build Support”.
 - Now once you are in Unity, from the top bar, navigate to File> Build Settings > Android
 - Make sure, under “Scenes in Build”, “Scene/main” is selected,  and click on Switch Platform.
@@ -65,43 +78,43 @@ Using the following steps, you can set up the project on your machine and run it
 
 #### Build App
 
-- Now go back to Unity and under Android Build Settings, click “Refresh” and make sure you can discover your headset in the drop down. If you can’t see it, please complete the previous step.
-  Select you headset and click “Build and Run”
+- Now go back to Unity and under Android Build Settings, click “Refresh” and make sure you can discover your headset in the drop-down. If you can’t see it, please complete the previous step.
+  Select your headset and click “Build and Run”
 
 ## Augmented Reality
 Augmented Reality (AR) is a technology that superimposes digital information onto the real world, often through the use of a camera and display, such as a smartphone or tablet screen.
 ### Current Template
-This repository has templates for both android and IOS devices. The templates just have a rotating cube. They are built on AR Foundation and  use ARCore an ARKit respectively for Android and IOS. These are most popular plugins for building AR apps for smartphones. However you can also build them natively, for example, for IOS you can also use SwiftUI and RealityKit
+This repository has templates for both Android and IOS devices. The templates just have a rotating cube. They are built on AR Foundation and  use ARCore and ARKit respectively for Android and IOS. These are the most popular plugins for building AR apps for smartphones. However, you can also build them natively, for example, for IOS you can also use SwiftUI and RealityKit
 
 ### Choice of Hardware
-All projects in this repository are build for devices with the largest consumer base and this template is build for Android and IOS smartphone which still dominate the AR world. 
+All projects in this repository are built for devices with the largest consumer base and this template is built for Android and IOS smartphones which still dominate the AR world. 
 
 ### Android 
-Make Sure you Android smartphone has USB Debugging enabled. You can refer to [Android Documentation](https://developer.android.com/studio/debug/dev-options) for more info.
+Make Sure your Android smartphone has USB Debugging enabled. You can refer to [Android Documentation](https://developer.android.com/studio/debug/dev-options) for more info.
 #### Getting Started
 - Clone/Download the Project Repository.
-- Install Unity Hub for your machine from official [Unity Site](https://unity.com/download).
-- Choose Unity Version - 2021.3.1f1 and add “Android Build Support” (You can skip this step as well and do it in next to next step)
-- Now, click on open under projects and navigate to the downloaded project repository. Open “Android” directory under AR.
+- Install Unity Hub for your machine from the official [Unity Site](https://unity.com/download).
+- Choose Unity Version - 2021.3.1f1 and add “Android Build Support” (You can skip this step as well and do it in to next step)
+- Now, click on Open under Projects and navigate to the downloaded project repository. Open the “Android” directory under AR.
   Unity might prompt you by saying that you do not have the correct version of Unity. Make sure you download the required version with  “Android Build Support”.
 - Now once you are in Unity, from the top bar, navigate to File> Build Settings > Android
 - Make sure, under “Scenes in Build”, “Scene/main” is selected,  and click on Switch Platform.
-- Connect you android device and click “Refresh” and make sure you can discover your phone in the drop down.
-- Select you phone and click “Build and Run”.
+- Connect your Android device and click “Refresh” and make sure you can discover your phone in the drop-down.
+- Select your phone and click “Build and Run”.
 
 ### IOS
-Make Sure you Android smartphone has USB Debugging enabled. You can refer to [Android Documentation](https://developer.android.com/studio/debug/dev-options) for more info.
+Make Sure your Android smartphone has USB Debugging enabled. You can refer to [Android Documentation](https://developer.android.com/studio/debug/dev-options) for more info.
 #### Getting Started
 - Clone/Download the Project Repository.
-- Install Unity Hub for your machine from official [Unity Site](https://unity.com/download).
+- Install Unity Hub for your machine from the official [Unity Site](https://unity.com/download).
 - You will also need to install XCode for IOS app, which you can install [here](https://apps.apple.com/us/app/xcode/id497799835?mt=12) with [Command Line Tools](https://forum.unity.com/threads/unable-to-create-project-using-arkit-and-ar-foundation-on-apple-silicon-m1-macbook.1302240/) and add them to path (Very Important). You must also have an Apple Developer Account.
-- Choose Unity Version - 2021.3.1f1 and add “IOS Build Support” (You can skip this step as well and do it in next to next step)
-- Now, click on open under projects and navigate to the downloaded project repository. Open “Android” directory under AR.
+- Choose Unity Version - 2021.3.1f1 and add “IOS Build Support” (You can skip this step as well and do it in to next step)
+- Now, click on open under Projects and navigate to the downloaded project repository. Open the “Android” directory under AR.
   Unity might prompt you by saying that you do not have the correct version of Unity. Make sure you download the required version with  “IOS Build Support”.
 - Now once you are in Unity, from the top bar, navigate to File> Build Settings > IOS
 - Make sure, under “Scenes in Build”, “Scene/Main” is selected,  and click on Switch Platform.
 - Open XCode on your device.
-- Connect you IOS Device and make sure it's unlocked.
+- Connect your IOS Device and make sure it's unlocked.
 - Click “Build and Run”.
 - If you run into issues, look for debugging tips [here](https://learn.unity.com/tutorial/deploy-your-project-to-ios-or-android?uv=2021.3&projectId=633b041bedbc2a6de5496294#633d41f8edbc2a4773c9eabf)
 
@@ -109,23 +122,23 @@ Make Sure you Android smartphone has USB Debugging enabled. You can refer to [An
 ## Mixed Reality
 Mixed Reality (MR) is a hybrid of virtual reality (VR) and augmented reality (AR) in which physical and digital objects coexist and interact in a real-time environment. MR combines the real and virtual worlds to produce new environments and visualizations where physical and digital objects can co-exist and interact.
 ### Current Template
-The template in build for Passthrough Mixed Reality for Meta Quest Pro.  This contains main scene has been configured to use Passthrough and Hand Tracking. You can also easily add other features from Meta Presence Platform to this Project. This project is fully configured to be published on Quest App Lab.
+The template is built for Passthrough Mixed Reality for Meta Quest Pro.  This contains the main scene that has been configured to use Passthrough and Hand Tracking. You can also easily add other features from the Meta Presence Platform to this Project. This project is fully configured to be published on Quest App Lab.
 
 ### Choice of Hardware
-All projects in this repository are build for devices with the largest consumer base and this template is build for Meta Quest Pro (or Quest 2) headset and can be used for any Meta headset released after it.
+All projects in this repository are built for devices with the largest consumer base and this template is built for the Meta Quest Pro (or Quest 2) headset and can be used for any Meta headset released after it.
 
 ### Getting Started
 Using the following steps, you can set up the project on your machine and run it on your headset.
 #### Software Setup
 
 - Clone/Download the Project Repository.
-- Install Unity Hub for your machine from official [Unity Site](https://unity.com/download).
-- Choose Unity Version - 2021.3.1f1 and add “Android Build Support” (You can skip this step as well and do it in next to next step)
-- Now, click on open under projects and navigate to the downloaded project repository. Open “MetaPassthrough” directory under MR.
+- Install Unity Hub for your machine from the official [Unity Site](https://unity.com/download).
+- Choose Unity Version - 2021.3.1f1 and add “Android Build Support” (You can skip this step as well and do it in to next step)
+- Now, click on Open under Projects and navigate to the downloaded project repository. Open the “MetaPassthrough” directory under MR.
   Unity might prompt you by saying that you do not have the correct version of Unity. Make sure you download the required version with  “Android Build Support”.
 - Now once you are in Unity, from the top bar, navigate to File> Build Settings > Android
 - Make sure, under “Scenes in Build”, “Scene/main” is selected,  and click on Switch Platform.
-- Click player settings, navigate to Publishing settings and under keystore enter temporary code 123456 for keystore and allias. You can change this as well.
+- Click player settings, navigate to Publishing settings, and under keystore enter temporary code 123456 for keystore and alias. You can change this as well.
 - That’s it, now we need to prepare our headset to run the project.
 
 #### Hardware Setup
@@ -134,8 +147,8 @@ Using the following steps, you can set up the project on your machine and run it
 
 #### Build App
 
-- Now go back to Unity and under Android Build Settings, click “Refresh” and make sure you can discover your headset in the drop down. If you can’t see it, please complete the previous step.
-  Select you headset and click “Build and Run”
+- Now go back to Unity and under Android Build Settings, click “Refresh” and make sure you can discover your headset in the drop-down. If you can’t see it, please complete the previous step.
+  Select your headset and click “Build and Run”
 
 
 
@@ -163,10 +176,10 @@ These are some recommended XR Tutorials which we suggest going through in order 
 * Any Other General XR Tutorials : [Dilmerv Youtube Channel](https://www.youtube.com/@dilmerv)
 
 ## Assets
-All projects might have some assets imported with them. These are free to use subject to the licenses attached in the folders. Please abide by the licenses before using specefic assets. Additonaly feel free to import free Assets from [Unity Asset Store](https://assetstore.unity.com/). Tip: When you might add assets, they might have a purple material. This might be because they are using standard material shader, and we are using URP for our projects. You can upgrade the materials using steps [here](https://jordancassady.medium.com/how-to-upgrade-materials-to-urp-in-unity-2021-2-and-above-3f1274656989).
+All projects might have some assets imported with them. These are free to use subject to the licenses attached in the folders. Please abide by the licenses before using specific assets. Additionally, feel free to import free Assets from [Unity Asset Store](https://assetstore.unity.com/). Tip: When you might add assets, they might have a purple material. This might be because they are using standard material shaders, and we are using URP for our projects. You can upgrade the materials using the steps [here](https://jordancassady.medium.com/how-to-upgrade-materials-to-urp-in-unity-2021-2-and-above-3f1274656989).
 
 ## Version Control
-If you are using any Unity project like this and using version control like git, make sure you only add specefic folder to you commit. "Assets", "Packages" and "Project Settings" are the three folders that you must add. Folders like "Library" are extremely heavly and are generated by Unity the first time you open the project. Additonally you might wanna add specefic folders that might have been added externally like "Builds" or "Keystore". If any of the asset file is larger than 100MB, it is also suggested using github [lfs](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage).
+If you are using any Unity project like this and using version control like git, make sure you only add specific folder to you commit. "Assets", "Packages" and "Project Settings" are the three folders that you must add. Folders like "Library" are extremely heavily and are generated by Unity the first time you open the project. Additonally you might wanna add specefic folders that might have been added externally like "Builds" or "Keystore". If any of the asset files is larger than 100MB, it is also suggested using github [lfs](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage).
 
 ## Contributing
 Users are encouraged to suggest changes to the repository, esspecially for such an ever-growing field, and they can do so by suggesting changes to the author using the contact information updated on the profile page.
