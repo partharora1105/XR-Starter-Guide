@@ -1,7 +1,10 @@
 # XR-Starter-Guide
 
-![GTXR Logo Landscape](https://github.com/GeorgiaTech-XR/XR-Starter-Guide/assets/81753493/085a0785-a564-491a-9450-e1d887211ce2)
+<div align="center">
+  <img src="https://github.com/GeorgiaTech-XR/XR-Starter-Guide/assets/81753493/b06bde45-a153-46c1-9dac-81656325c0ed" width="35%">
+</div>
 
+<br />
 Welcome to the [XR-Starter-Guide](https://github.com/GeorgiaTech-XR/XR-Starter-Guide) made by [GTXR](www.gtxr.club) (Georgia Tech Extended Reality)  – Your Gateway to Immersive Worlds!
 
 Unlock the magic of Extended Reality with our comprehensive XR Starter Guide. In this repository, you'll find expertly crafted starter templates tailored to specific XR technologies, meticulously configured for various platforms, complete with essential functionality and ready-to-use assets. Our projects are all powered by Unity for seamless cross-platform compatibility, and we harness the power of C# for scripting.
