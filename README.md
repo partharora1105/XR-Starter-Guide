@@ -5,11 +5,12 @@
 </div>
 
 <br />
-Welcome to the [XR-Starter-Guide](https://github.com/GeorgiaTech-XR/XR-Starter-Guide) made by [GTXR](www.gtxr.club) (Georgia Tech Extended Reality)  – Your Gateway to Immersive Worlds!
+
+Welcome to the [`XR-Starter-Guide`](https://github.com/GeorgiaTech-XR/XR-Starter-Guide) made by [`GTXR`](www.gtxr.club) (Georgia Tech Extended Reality)  – Your Gateway to Immersive Worlds!
 
 Unlock the magic of Extended Reality with our comprehensive XR Starter Guide. In this repository, you'll find expertly crafted starter templates tailored to specific XR technologies, meticulously configured for various platforms, complete with essential functionality and ready-to-use assets. Our projects are all powered by Unity for seamless cross-platform compatibility, and we harness the power of C# for scripting.
 
-[**`Website`**](www.gtxr.club)  [**`Join Our Slack`**](https://join.slack.com/t/gtxrgroup/shared_invite/zt-1bfj2rjuc-IIdx2Ck6b6h8U7~OCy9Zrw)
+[**`Website`**](https://www.gtxr.club)  [**`Join Our Slack`**](https://join.slack.com/t/gtxrgroup/shared_invite/zt-1bfj2rjuc-IIdx2Ck6b6h8U7~OCy9Zrw)
 
 ## What's Inside:
 
